@@ -6,7 +6,7 @@
   font-style: normal;
 }
 .main_box {
-  background-image: url(photo.jpg);
+  background-image: url(image/photo.jpg);
   height: 100vh;
   background-size: cover;
 }
@@ -41,63 +41,64 @@
   text-decoration: none;
   font-size: 20px;
   font-weight: 500;
-  top:15px;
+  top: 15px;
 }
-.sidebar_menu .btn_two i{
-    color: white;
-    font-size: 25px;
-    line-height: 60px;
-    position: absolute;
-    left: 275px;
-    cursor: pointer;
-    opacity: 0.5;
+.sidebar_menu .btn_two i {
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+  position: absolute;
+  left: 275px;
+  cursor: pointer;
+  opacity: 0.5;
 }
-.sidebar_menu .menu{
-    position: absolute;
-    top:80px;
-    color: white;
-    width: 100%;
+.sidebar_menu .menu {
+  position: absolute;
+  top: 80px;
+  color: white;
+  width: 100%;
 }
-.sidebar_menu .menu i,a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.sidebar_menu .menu i,
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-.sidebar_menu .menu li{
-    margin-top: 6px;
-    padding: 10px 20px;
+.sidebar_menu .menu li {
+  margin-top: 6px;
+  padding: 10px 20px;
 }
-.sidebar_menu .menu i{
-    padding-right: 8px;
+.sidebar_menu .menu i {
+  padding-right: 8px;
 }
-.sidebar_menu .social_media{
-    color: white;
-    opacity: 1;
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
+.sidebar_menu .social_media {
+  color: white;
+  opacity: 1;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
 }
-#check{
-    display: none;
+#check {
+  display: none;
 }
-.sidebar_menu .social_media i{
-   color: white;
-   opacity: 1;
-   padding: 0.5px;
+.sidebar_menu .social_media i {
+  color: white;
+  opacity: 1;
+  padding: 0.5px;
 }
-.sidebar_menu .menu li:hover{
-    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+.sidebar_menu .menu li:hover {
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
 }
-.btn_one i:hover{
-    font-size: 40px;
+.btn_one i:hover {
+  font-size: 40px;
 }
-.btn_two i:hover{
-    font-size: 30px;
+.btn_two i:hover {
+  font-size: 30px;
 }
-.sidebar_menu .social_media i:hover{
-    opacity: 1.0;
-    transform: scale(1.1);
+.sidebar_menu .social_media i:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
-#check:checked ~.sidebar_menu{
-    left:0px;
+#check:checked ~ .sidebar_menu {
+  left: 0px;
 }
